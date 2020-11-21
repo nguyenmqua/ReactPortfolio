@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://nguyenmqua.github.io",
+  "homepage": "https://nguyenmqua.github.io/ReactPortfolio/",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
@@ -22,7 +22,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
