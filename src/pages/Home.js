@@ -17,6 +17,9 @@ function Home(props){
                             </Col>
                             <Col sm="12" md={{ size: 8 }} className="float-left" >   
                             Full-stack web developer leveraging a business and education background to build a more intuitive user experience. 
+                            <Row>
+                                <a href = "https://my.indeed.com/p/quan-0jehk1g">Resume</a>
+                            </Row>
                             </Col>
                        </CardBody>
                        
