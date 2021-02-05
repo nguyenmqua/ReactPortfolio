@@ -39,9 +39,6 @@ const Navigation = () => {
               <NavItem>
                 <NavLink href="/projects"><Font>My Project</Font></NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink  href="/contact"><Font>Contact Me</Font></NavLink>
-              </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 <Font><i className="fas fa-users"></i></Font>
