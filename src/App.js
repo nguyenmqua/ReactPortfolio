@@ -10,18 +10,16 @@ import NoMatch from "./pages/NoMatch"
 
 const App = () => {
   return (
-      <Router>
-        <div>
+      <Router> 
           <TopNav />
           <Container>
             <Switch>
-              <Route exact path="/ReactPortfolio/" component={Home} />
-              <Route exact path="/ReactPortfolio/contact/" component={Contact} />
-              <Route exact path= "/ReactPortfolio/projects/" component={Project} />
+              <Route exact path="/" component={Home} />
+              <Route exact path="/contact" component={Contact} />
+              <Route exact path= "/projects" component={Project} />
               <Route render={NoMatch} />
             </Switch>
           </Container>
-        </div>
       </Router>
   );
 };

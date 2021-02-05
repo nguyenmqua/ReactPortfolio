@@ -2,9 +2,8 @@ import React from "react";
 import { Container, Row, Col, Card, CardHeader, CardBody } from 'reactstrap';
 
 function Home(props){
-    return(
-        <p>
-        <Container fluid>
+    return( 
+        <Container className="main" fluid>
             <Row>
                 <Col sm="12" md={{ size: 8, offset: 2 }} >
                    <Card>
@@ -17,17 +16,12 @@ function Home(props){
                             </Col>
                             <Col sm="12" md={{ size: 8 }} className="float-left" >   
                             Full-stack web developer leveraging a business and education background to build a more intuitive user experience. 
-                            <Row>
-                                <a href = "https://my.indeed.com/p/quan-0jehk1g">Resume</a>
-                            </Row>
                             </Col>
-                       </CardBody>
-                       
+                       </CardBody>      
                    </Card>
                 </Col>
             </Row>
         </Container>
-        </p>
     )
 }
 

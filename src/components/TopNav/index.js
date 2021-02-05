@@ -13,7 +13,6 @@ import {
   DropdownItem,
 } from 'reactstrap';
 import styled from "styled-components"
-import { Link } from 'react-router-dom';
 
 const Font = styled.div`
   color: white;
@@ -29,18 +28,19 @@ const Navigation = () => {
   };
 
   return (
+      <div>
       <Navbar className="navbar" expand="md">
-        <NavbarBrand className="navbar" href="/ReactPortfolio/">
+        <NavbarBrand href="/">
           <Font> Qua Nguyen</Font>
-         </NavbarBrand>
-          <NavbarToggler color="primary" onClick={toggle} />
-        <Collapse  isOpen={isOpen} navbar>
+          </NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link  color="light" to="/ReactPortfolio/projects"><Font>My Project</Font></Link>
+                <NavLink href="/projects"><Font>My Project</Font></NavLink>
               </NavItem>
               <NavItem>
-                <Link  to="/ReactPortfolio/contact"><Font>Contact Me</Font></Link>
+                <NavLink  href="/contact"><Font>Contact Me</Font></NavLink>
               </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -63,6 +63,7 @@ const Navigation = () => {
           </Nav>
         </Collapse>
       </Navbar>
+      </div>
   );
 };
 export default Navigation;
