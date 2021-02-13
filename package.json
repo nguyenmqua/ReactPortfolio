@@ -15,7 +15,7 @@
     "sendmail": "^1.6.1",
     "styled-components": "^5.2.1"
   },
-  "homepage": "https://myusername.github.io/ReactPortfolio",
+  "homepage": "https://myusername.github.io/",
   "scripts": {  
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
