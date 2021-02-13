@@ -53,7 +53,7 @@ const Navigation = () => {
                   <NavLink href="https://www.linkedin.com/in/qua-nguyen-3250891a3/"><i className="fab fa-linkedin"></i></NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="mailto:nguyenmqua@gmail.com"><i className="fa fa-envelope" ></i></NavLink>
+                  <NavLink href="mailto:nguyenmqua@gmail.com"><i className="fas fa-envelope-square" ></i></NavLink>
                 </DropdownItem>
                     </>
                 </DropdownMenu>
