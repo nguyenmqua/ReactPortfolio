@@ -1,5 +1,5 @@
 {
-  "name": "mern",
+  "name": "porfolio",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
@@ -15,7 +15,7 @@
     "sendmail": "^1.6.1",
     "styled-components": "^5.2.1"
   },
-  "homepage": "https://myusername.github.io",
+  "homepage": "https://myusername.github.io/ReactPortfolio",
   "scripts": {  
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
