@@ -31,14 +31,14 @@ const Navigation = () => {
   return (
       <div>
        <Navbar className="navbar" expand="md">
-        <NavbarBrand className="navbar" href="/ReactPortfolio/">
+        <NavbarBrand className="navbar" href="/">
           <Font> Qua Nguyen</Font>
          </NavbarBrand>
           <NavbarToggler color="primary" onClick={toggle} />
         <Collapse  isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link  color="light" to="/ReactPortfolio/projects"><Font>My Project</Font></Link>
+                <Link  color="light" to="/projects"><Font>My Project</Font></Link>
               </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
