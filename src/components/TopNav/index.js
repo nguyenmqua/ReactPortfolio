@@ -13,6 +13,7 @@ import {
   DropdownItem,
 } from 'reactstrap';
 import styled from "styled-components"
+import { Link } from 'react-router-dom';
 
 const Font = styled.div`
   color: white;
@@ -29,15 +30,15 @@ const Navigation = () => {
 
   return (
       <div>
-      <Navbar className="navbar" expand="md">
-        <NavbarBrand href="/">
+       <Navbar className="navbar" expand="md">
+        <NavbarBrand className="navbar" href="/ReactPortfolio/">
           <Font> Qua Nguyen</Font>
-          </NavbarBrand>
-          <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
+         </NavbarBrand>
+          <NavbarToggler color="primary" onClick={toggle} />
+        <Collapse  isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/projects"><Font>My Project</Font></NavLink>
+                <Link  color="light" to="/ReactPortfolio/projects"><Font>My Project</Font></Link>
               </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
