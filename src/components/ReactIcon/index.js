@@ -3,7 +3,7 @@ import React from "react";
 function reactIcon (props){
 
     return(
-        <img src="./images/React.png" width="10px" className="reacticon"></img>
+        <img src="./images/React.png" width="60px" className="reacticon"></img>
     )
 }
 
