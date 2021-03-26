@@ -34,7 +34,7 @@ function Project(props){
                     </a>
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="./images/StudyBuddy.JPG" width = "200"></img>
+                    <img src ="./images/StudyBuddy.JPG" width = "200" alt="icon"></img>
                 </Col>        
             </Row>
             </Container>
@@ -61,7 +61,7 @@ function Project(props){
                     </a>
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="./images/ST2.JPG" width = "200"></img>
+                    <img src ="./images/ST2.JPG" alt="icon" width = "200"></img>
                 </Col>        
             </Row>
             </Container>
@@ -88,7 +88,7 @@ function Project(props){
                     </a>
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="./images/SportsTalk.PNG" width = "200"></img>
+                    <img src ="./images/SportsTalk.PNG" alt="icon" width = "200"></img>
                 </Col>        
             </Row>
             </Container>
@@ -115,7 +115,7 @@ function Project(props){
                     </a> 
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="./images/Budget.PNG" width = "200"></img>
+                    <img src ="./images/Budget.PNG"  alt="icon" width = "200"></img>
                 </Col>        
             </Row>
             </Container>
@@ -141,7 +141,7 @@ function Project(props){
                     </a> 
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="./images/Fitness.PNG" width = "200"></img>
+                    <img src ="./images/Fitness.PNG" alt="icon" width = "200"></img>
                 </Col>        
             </Row>
             </Container>
@@ -167,7 +167,7 @@ function Project(props){
                     </a> 
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="./images/burger.PNG" width = "200"></img>
+                    <img src ="./images/burger.PNG" alt="icon" width = "200"></img>
                 </Col>        
             </Row>
             </Container>
@@ -194,7 +194,7 @@ function Project(props){
                     </a> 
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="./images/Employee.PNG" width = "200"></img>
+                    <img src ="./images/Employee.PNG" alt="icon" width = "200"></img>
                 </Col>        
             </Row>
             </Container>

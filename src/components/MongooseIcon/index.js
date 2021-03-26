@@ -3,7 +3,7 @@ import React from "react";
 function MongooseIcon (props){
 
     return(
-        <img src="./images/mongodb-logo.png"  className="mongooseicon" ></img>
+        <img src="./images/mongodb-logo.png"  alt="icon" className="mongooseicon" ></img>
     )
 }
 

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import TopNav from './components/TopNav';
 import { Container } from 'reactstrap';
 import Home from "./pages/Home"
-import Contact from "./pages/Contact"
 import Project from "./pages/Project"
 import NoMatch from "./pages/NoMatch"
 
