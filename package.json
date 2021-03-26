@@ -15,14 +15,12 @@
     "reactstrap": "^8.7.1",
     "styled-components": "^5.2.1"
   },
-  "homepage": "https://nguyenmqua.github.io/ReactPortfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
   "browserslist": [
     ">0.2%",
