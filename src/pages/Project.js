@@ -34,7 +34,7 @@ function Project(props){
                     </a>
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="/images/StudyBuddy.JPG" width = "200" alt="icon"></img>
+                    <img src ="../images/StudyBuddy.JPG" width = "200" alt="icon"></img>
                 </Col>        
             </Row>
             </Container>
