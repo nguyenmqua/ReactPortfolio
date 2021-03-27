@@ -13,8 +13,8 @@ const App = () => {
           <TopNav />
           <Container>
             <Switch>
-              <Route exact path="/ReactPortfolio/" component={Home} />
-              <Route exact path= "/ReactPortfolio/projects" component={Project} />
+              <Route exact path="/" component={Home} />
+              <Route exact path= "/projects" component={Project} />
               <Route render={NoMatch} />
             </Switch>
           </Container>
