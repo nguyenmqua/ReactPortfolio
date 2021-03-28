@@ -31,7 +31,7 @@ function Timeline(props){
                     </a>
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="../images/StudyBuddy.JPG"></img>
+                    <img src ="./images/StudyBuddy.JPG"></img>
                 </Col>        
             </Row>
             </Container>
