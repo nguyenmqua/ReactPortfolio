@@ -6,7 +6,7 @@ import SQLIcon from "../SQLIcon"
 import MongooseIcon from "../MongooseIcon"
 import HandleBarsIcon from "../HandleBarsIcon"
 import ReactIcon from "../ReactIcon"
-import reactimage from "."
+import StudyBuddyImage from "../../images/StudyBuddy.JPG"
 function Timeline(props){
 
     return(
@@ -32,7 +32,7 @@ function Timeline(props){
                     </a>
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="./images/StudyBuddy.JPG"></img>
+                    <img src ={StudyBuddyImage}/>
                 </Col>        
             </Row>
             </Container>
