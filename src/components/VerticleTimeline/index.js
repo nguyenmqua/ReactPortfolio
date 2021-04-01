@@ -6,7 +6,6 @@ import SQLIcon from "../SQLIcon"
 import MongooseIcon from "../MongooseIcon"
 import HandleBarsIcon from "../HandleBarsIcon"
 import ReactIcon from "../ReactIcon"
-import StudyBuddyImage from "../../images/StudyBuddy.JPG"
 function Timeline(props){
 
     return(
@@ -22,7 +21,7 @@ function Timeline(props){
             <Row>
                 <Col sm="12" md={{ size: 6 }} >
                     <a href="https://reactstudybuddy.herokuapp.com/">
-                        <h2 className="vertical-timeline-element-title">Study Buddy</h2>
+                        <h2 className="vertical-timeline-element-title"><div className="heading">Study Buddy</div></h2>
                     </a>   
                     <p>
                         Technology Used: MongoDB, React.JS, ReactStrap
@@ -32,7 +31,7 @@ function Timeline(props){
                     </a>
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src = {StudyBuddyImage}/>
+                    <img src ="./images/StudyBuddy.JPG" alt="icon" width = "200"></img>
                 </Col>        
             </Row>
             </Container>
@@ -43,13 +42,13 @@ function Timeline(props){
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="December 2020"
             iconStyle={{ background: 'rgb(33, 150, 243)',  color: '#fff' }}
-            icon={<ReactIcon />}
+            icon={<ReactIcon />}npm
           >
             <Container fluid>
             <Row>
                 <Col sm="12" md={{ size: 6 }} >
                     <a href="https://sportstalkapp.herokuapp.com/">
-                        <h2 className="vertical-timeline-element-title">Sports Talk 2.0</h2>
+                        <h2 className="vertical-timeline-element-title"><div className="heading"> Sports Talk 2.0</div></h2>
                     </a>   
                     <p>
                         Technology Used: MongoDB, React.JS, Sematic-UI
@@ -76,7 +75,7 @@ function Timeline(props){
             <Row>
                 <Col sm="12" md={{ size: 6 }} >
                     <a href="https://protected-eyrie-90366.herokuapp.com/">
-                        <h2 className="vertical-timeline-element-title">Sports Talk</h2>
+                        <h2 className="vertical-timeline-element-title"><div className="heading">Sports Talk</div></h2>
                     </a>   
                     <p>
                         Technology Used: MySQL, Express-HandleBars, Node.js 
@@ -86,7 +85,7 @@ function Timeline(props){
                     </a>
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="/../images/SportsTalk.PNG" alt="icon" width = "200"></img>
+                    <img src ="/images/SportsTalk.PNG" alt="icon" width = "200"></img>
                 </Col>        
             </Row>
             </Container>
@@ -103,7 +102,7 @@ function Timeline(props){
             <Row>
                 <Col sm="12" md={{ size: 6 }} >
                     <a href="https://shrouded-plains-58176.herokuapp.com/">
-                    <h2 className="vertical-timeline-element-title">Progressive Budget</h2>
+                    <h2 className="vertical-timeline-element-title"><div className="heading">Progressive Budget</div></h2>
                     </a>
                     <p>
                     Technology Used: Mongoose, Node.js 
@@ -113,7 +112,7 @@ function Timeline(props){
                     </a> 
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="../../images/Budget.PNG"  alt="icon" width = "200"></img>
+                    <img src ="/images/Budget.PNG"  alt="icon" width = "200"></img>
                 </Col>        
             </Row>
             </Container>
@@ -129,7 +128,7 @@ function Timeline(props){
             <Row>
                 <Col sm="12" md={{ size: 6 }} >
                     <a href="https://quality-workout-fitness-app.herokuapp.com">
-                    <h2 className="vertical-timeline-element-title">Fitness Tracker</h2>
+                    <h2 className="vertical-timeline-element-title"><div className="heading"> Fitness Tracker</div></h2>
                     </a>
                     <p>
                     Technology Used: Mongoose, Node.js 
@@ -155,7 +154,7 @@ function Timeline(props){
             <Row>
                 <Col sm="12" md={{ size: 6 }} >
                     <a href="https://thawing-wildwood-02806.herokuapp.com/">
-                    <h2 className="vertical-timeline-element-title">Burger Ordering App</h2>
+                    <h2 className="vertical-timeline-element-title"><div className="heading">Burger Ordering App</div></h2>
                     </a>
                     <p>
                     Technology Used: Express, HandleBars, Node.js 
@@ -182,7 +181,7 @@ function Timeline(props){
             <Row>
                 <Col sm="12" md={{ size: 6 }} >
                     <a href="https://www.youtube.com/watch?v=czLlFn1dMEM">
-                    <h2 className="vertical-timeline-element-title">Employee Tracker</h2>
+                    <h2 className="vertical-timeline-element-title"><div className="heading"> Employee Tracker</div></h2>
                     </a>
                     <p>
                     Technology Used: SQL, Node.js 
@@ -192,7 +191,7 @@ function Timeline(props){
                     </a> 
                 </Col>
                 <Col sm="12" md={{ size: 6}} className ="float-right" >
-                    <img src ="../../images/Employee.PNG" alt="icon" width = "200"></img>
+                    <img src ="/images/Employee.PNG" alt="icon" width = "200"></img>
                 </Col>        
             </Row>
             </Container>

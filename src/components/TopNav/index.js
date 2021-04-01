@@ -34,7 +34,8 @@ const Navigation = () => {
         <NavbarBrand className="navbar" href="/">
           <Font> Qua Nguyen</Font>
          </NavbarBrand>
-          <NavbarToggler color="primary" onClick={toggle} />
+          <NavbarToggler color="primary" onClick={toggle}><i className="fas fa-tasks"></i>
+          </NavbarToggler>
         <Collapse  isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
               <NavItem>
@@ -42,20 +43,20 @@ const Navigation = () => {
               </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                <Font><i className="fas fa-users"></i></Font>
+                <Font><i className="fas fa-users "></i></Font>
               </DropdownToggle>
               <DropdownMenu >   
-                  <>     
+     
                 <DropdownItem>
-                    <NavLink href="https://github.com/nguyenmqua"><i className="fab fa-github-square"></i></NavLink>
+                    <NavLink href="https://github.com/nguyenmqua"><i className="fab fa-github-square link "></i></NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://www.linkedin.com/in/qua-nguyen-3250891a3/"><i className="fab fa-linkedin"></i></NavLink>
+                  <NavLink href="https://www.linkedin.com/in/qua-nguyen-3250891a3/"><i className="fab fa-linkedin link "></i></NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="mailto:nguyenmqua@gmail.com"><i className="fas fa-envelope-square" ></i></NavLink>
+                  <NavLink href="mailto:nguyenmqua@gmail.com"><i className="fas fa-envelope-square link " ></i></NavLink>
                 </DropdownItem>
-                    </>
+
                 </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
