@@ -5,6 +5,7 @@ import { Container } from 'reactstrap';
 import Home from "./pages/Home"
 import Project from "./pages/Project"
 import NoMatch from "./pages/NoMatch"
+import Contact from "./pages/Contact"
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path= "/projects" component={Project} />
+              <Route exact path= "/contact" component={Contact} />
               <Route render={NoMatch} />
             </Switch>
           </Container>

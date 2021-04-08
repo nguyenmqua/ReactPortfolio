@@ -38,8 +38,11 @@ const Navigation = () => {
           </NavbarToggler>
         <Collapse  isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-              <NavItem>
+              <NavItem className="navLink">
                 <Link  color="light" to="/projects"><Font>My Project</Font></Link>
+              </NavItem>
+              <NavItem className="navLink">
+                <Link  color="light" to="/contact"><Font>Contact Me</Font></Link>
               </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>

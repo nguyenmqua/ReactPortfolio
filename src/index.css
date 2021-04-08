@@ -24,6 +24,7 @@ body{
 }
 
 .profile-paragraph{
+
   margin-top: 20px;
 }
 .resume{
@@ -90,4 +91,17 @@ a{
   align-items: center;
   width: 100%;
   border-radius: 50%;
+}
+
+.navLink{
+  padding-left: 10px;
+}
+
+.label{
+  color: white
+}
+
+h6{
+  font-size: 12px;
+  color: black;
 }

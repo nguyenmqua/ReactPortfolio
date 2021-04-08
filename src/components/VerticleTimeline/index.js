@@ -22,9 +22,10 @@ function Timeline(props){
                 <Col sm="12" md={{ size: 6 }} >
                     <a href="https://reactstudybuddy.herokuapp.com/">
                         <h2 className="vertical-timeline-element-title"><div className="heading">Study Buddy</div></h2>
-                    </a>   
+                    </a> 
+                    <h6>-an app that allows students to link up with each other to study </h6>  
                     <p>
-                        Technology Used: MongoDB, React.JS, ReactStrap
+                        Technology Used: MongoDB, React.JS, ReactStrap, Mobile-Responsive
                     </p>
                     <a href="https://github.com/nguyenmqua/StudyBuddyReact">
                         <p className="vertical-timeline-element-subtitle">GitHub Repo</p>
@@ -49,7 +50,9 @@ function Timeline(props){
                 <Col sm="12" md={{ size: 6 }} >
                     <a href="https://sportstalkapp.herokuapp.com/">
                         <h2 className="vertical-timeline-element-title"><div className="heading"> Sports Talk 2.0</div></h2>
-                    </a>   
+                    </a>
+                    <h6>-an updated version of SportTalk 1.0- users are now able to make football wagers with their friends. New UI/UX </h6>  
+
                     <p>
                         Technology Used: MongoDB, React.JS, Sematic-UI
                     </p>
@@ -76,7 +79,8 @@ function Timeline(props){
                 <Col sm="12" md={{ size: 6 }} >
                     <a href="https://protected-eyrie-90366.herokuapp.com/">
                         <h2 className="vertical-timeline-element-title"><div className="heading">Sports Talk</div></h2>
-                    </a>   
+                    </a> 
+                    <h6>-A sport and social media app that allows users to comment about the latest sports news and scores </h6>    
                     <p>
                         Technology Used: MySQL, Express-HandleBars, Node.js 
                     </p>
@@ -104,6 +108,7 @@ function Timeline(props){
                     <a href="https://shrouded-plains-58176.herokuapp.com/">
                     <h2 className="vertical-timeline-element-title"><div className="heading">Progressive Budget</div></h2>
                     </a>
+                    <h6>-A Budget App that allows the user to track expenses </h6>  
                     <p>
                     Technology Used: Mongoose, Node.js 
                     </p>
@@ -156,6 +161,7 @@ function Timeline(props){
                     <a href="https://thawing-wildwood-02806.herokuapp.com/">
                     <h2 className="vertical-timeline-element-title"><div className="heading">Burger Ordering App</div></h2>
                     </a>
+                    <h6>-A food ordering app </h6>  
                     <p>
                     Technology Used: Express, HandleBars, Node.js 
                     </p>
