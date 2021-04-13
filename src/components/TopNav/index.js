@@ -39,7 +39,7 @@ const Navigation = () => {
         <Collapse  isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
               <NavItem className="navLink">
-                <Link  color="light" to="/projects"><Font>My Project</Font></Link>
+                <Link  color="light" to="/projects"><Font>My Projects</Font></Link>
               </NavItem>
               <NavItem className="navLink">
                 <Link  color="light" to="/contact"><Font>Contact Me</Font></Link>
@@ -59,7 +59,6 @@ const Navigation = () => {
                 <DropdownItem>
                   <NavLink href="mailto:nguyenmqua@gmail.com"><i className="fas fa-envelope-square link " ></i></NavLink>
                 </DropdownItem>
-
                 </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
