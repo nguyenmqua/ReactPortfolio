@@ -25,7 +25,7 @@ function Timeline(props){
                     </a> 
                     <h6>-an app that allows students to link up with each other to study </h6>  
                     <p>
-                        Technology Used: MongoDB, React.JS, ReactStrap, Mobile-Responsive
+                        Technology Used: MongoDB, React.JS, ReactStrap, Mobile-Responsive, Node.JS
                     </p>
                     <a href="https://github.com/nguyenmqua/StudyBuddyReact">
                         <p className="vertical-timeline-element-subtitle">GitHub Repo</p>
@@ -54,7 +54,7 @@ function Timeline(props){
                     <h6>-an updated version of SportTalk 1.0- users are now able to make football wagers with their friends. New UI/UX </h6>  
 
                     <p>
-                        Technology Used: MongoDB, React.JS, Sematic-UI
+                        Technology Used: MongoDB, React.JS, Sematic-UI, Node.JS, Mobile-Reponsive, Heroku
                     </p>
                     <a href="https://github.com/nguyenmqua/SportstalkReact">
                         <p className="vertical-timeline-element-subtitle">GitHub Repo</p>
@@ -70,7 +70,7 @@ function Timeline(props){
           <VerticalTimelineElement     
             className="vertical-timeline-element--work"
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="October 2020"
+            date="November 2020"
             iconStyle={{ background: 'rgb(33, 150, 243)',  color: '#fff' }}
             icon={<SQLIcon />}
           >
@@ -82,7 +82,7 @@ function Timeline(props){
                     </a> 
                     <h6>-A sport and social media app that allows users to comment about the latest sports news and scores </h6>    
                     <p>
-                        Technology Used: MySQL, Express-HandleBars, Node.js 
+                        Technology Used: MySQL, Express-HandleBars, Jquery.JS, Node.js, Heroku
                     </p>
                     <a href="https://github.com/nguyenmqua/Sports-Talk">
                         <p className="vertical-timeline-element-subtitle">GitHub Repo</p>
@@ -110,7 +110,7 @@ function Timeline(props){
                     </a>
                     <h6>-A Budget App that allows the user to track expenses </h6>  
                     <p>
-                    Technology Used: Mongoose, Node.js 
+                    Technology Used: Mongoose, Node.js, Jquery
                     </p>
                     < a href=" https://github.com/nguyenmqua/BudgetApp">
                         <p className="vertical-timeline-element-subtitle">GitHub Repo</p>
@@ -125,7 +125,7 @@ function Timeline(props){
           <VerticalTimelineElement     
             className="vertical-timeline-element--work"
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="October 2020"
+            date="September 2020"
             iconStyle={{ background: 'rgb(33, 150, 243)',  color: '#fff' }}
             icon={<MongooseIcon />}
           >
@@ -179,7 +179,7 @@ function Timeline(props){
           <VerticalTimelineElement     
             className="vertical-timeline-element--work"
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="September 2020"
+            date="August 2020"
             iconStyle={{ background: 'rgb(33, 150, 243)',  color: '#fff' }}
             icon={<SQLIcon />}
           >
