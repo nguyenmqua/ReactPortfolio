@@ -32,7 +32,7 @@ const Navigation = () => {
       <div>
        <Navbar className="navbar" expand="md">
         <NavbarBrand className="navbar" href="/">
-          <Font> Qua Nguyen</Font>
+          <Font> Quality Coded </Font>
          </NavbarBrand>
           <NavbarToggler color="primary" onClick={toggle}><i className="fas fa-tasks"></i>
           </NavbarToggler>

@@ -20,8 +20,6 @@ function Home(props) {
                     align="left"
                   />
                 </Col>
-              </Row>
-              <Row>
                 <Col>
                   <div className="profile-paragraph float-left">
                     Full-stack web developer leveraging a business and education
@@ -43,6 +41,7 @@ function Home(props) {
         </Col>
       </Row>
       <Row>
+       
         <Col className="timeline">
           <Timeline />
         </Col>

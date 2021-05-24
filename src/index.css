@@ -18,6 +18,15 @@ body{
   color:  black;
   font-display: swap
 }
+.contactme{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  white;
+  font-display: swap
+}
 .vertical-timeline-element-date{
   color: white;
 }
@@ -41,6 +50,7 @@ body{
 
 .profile-paragraph{
   margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 .resume{
   margin-top: 20px;

@@ -36,7 +36,7 @@ function Contact(props){
         <Container  fluid>
             <Row className="aboutMe">
                 <Col sm="12" md={{ size: 8, offset: 2 }} >
-                    <div className="title">Contact Me</div>
+                    <div className="contactme">Contact Me</div>
                     <FormGroup row>
                         <Label className="label" for="" sm={2}>Name</Label>
                         <Col sm={10}>
